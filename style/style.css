@@ -1,0 +1,69 @@
+/* Body and Heading Fonts */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Navbar */
+  .w3-bar, h1, button {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Anchor and Coffee Icons Size */
+  .fa-anchor, .fa-coffee {
+    font-size: 200px;
+  }
+  
+  /* Main Content Styling */
+  .container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #E9F1FD; /* Added a blue background color */
+    margin-top: 80px; /* Adjust the top margin to create space below the navbar */
+  }
+  
+  .container p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .container strong {
+    font-weight: bold;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  footer .w3-xlarge {
+    margin-top: 20px;
+  }
+  
+  /* Added Styles for Blue Background */
+  body {
+    background-color: #E9F1FD; /* Added a blue background color for the body */
+  }
+  
+  /* Adjust Navbar Position */
+  .w3-top {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+ header {
+    background-color: #142D5D;
+    color: #fff;
+ }
+
+.w3-bar.w3-card {
+    background-color: #142D5D; /* Added a background color for the navbar */
+  }
+  
+  /* Added Style for Tab Bar Background */
+  .w3-bar.w3-card .w3-bar-item {
+    background-color: #142D5D; /* Added a background color for the tab bar */
+    color: #fff;
+  }
